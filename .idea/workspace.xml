@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added new basecake,Strawberry, to GUI.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/ExtraLargeCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/SprinkledCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/TextedCake.java" afterDir="false" />
+    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added decorators for Cake.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/VanillaCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/VanillaCake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,15 @@
       <recent name="C:\Users\Emmy\IdeaProjects\Decorator\src\se\umu\cs\apjava\bakery" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Decorator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="se.umu.cs.apjava.bakery.Main" />
+      <module name="Decorator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +81,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1669030235638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Added decorators for Cake.">
+      <created>1669034285540</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1669034285540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +105,7 @@
     <MESSAGE value="Initial commit containing starting code from assignment." />
     <MESSAGE value="Added new basecake,Strawberry. Double the price." />
     <MESSAGE value="Added new basecake,Strawberry, to GUI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new basecake,Strawberry, to GUI." />
+    <MESSAGE value="Added decorators for Cake." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added decorators for Cake." />
   </component>
 </project>
