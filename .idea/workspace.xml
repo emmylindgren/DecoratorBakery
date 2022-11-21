@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Initial commit containing starting code from assignment.">
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/StrawberryCake.java" afterDir="false" />
+    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added new basecake,Strawberry. Double the price.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/StrawberryCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/StrawberryCake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2HdjUaG3KwJVj69Aud04BYF6J09" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +59,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1668622144589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Added new basecake,Strawberry. Double the price.">
+      <created>1669029690744</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1669029690744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit containing starting code from assignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit containing starting code from assignment." />
+    <MESSAGE value="Added new basecake,Strawberry. Double the price." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new basecake,Strawberry. Double the price." />
   </component>
 </project>
