@@ -1,6 +1,6 @@
 package se.umu.cs.apjava.bakery;
 
-public class BakeryViewModel {
+public class BakeryController {
     private Order currentOrder=new Order();
     private Cake currentCake;
 

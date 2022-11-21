@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added new basecake,Strawberry. Double the price.">
+    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added new basecake,Strawberry, to GUI.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/ExtraLargeCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/SprinkledCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/TextedCake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/StrawberryCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/StrawberryCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/VanillaCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/VanillaCake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Emmy\IdeaProjects\Decorator\src\se\umu\cs\apjava\bakery" />
@@ -65,7 +71,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1669029690744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Added new basecake,Strawberry, to GUI.">
+      <created>1669030235638</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1669030235638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit containing starting code from assignment." />
     <MESSAGE value="Added new basecake,Strawberry. Double the price." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new basecake,Strawberry. Double the price." />
+    <MESSAGE value="Added new basecake,Strawberry, to GUI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new basecake,Strawberry, to GUI." />
   </component>
 </project>
