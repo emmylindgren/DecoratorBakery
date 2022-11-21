@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Added decorators for Cake.">
+    <list default="true" id="8088e787-f14e-48ac-a8e5-1b4ef018bf36" name="Changes" comment="Updated GUI to match new decorations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/bakery/BakeryGuiBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/ExtraLargeCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/ExtraLargeCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/SprinkledCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/SprinkledCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/TextedCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/TextedCake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1669034285540</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Updated GUI to match new decorations">
+      <created>1669042245303</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1669042245303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +115,7 @@
     <MESSAGE value="Added new basecake,Strawberry. Double the price." />
     <MESSAGE value="Added new basecake,Strawberry, to GUI." />
     <MESSAGE value="Added decorators for Cake." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added decorators for Cake." />
+    <MESSAGE value="Updated GUI to match new decorations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GUI to match new decorations" />
   </component>
 </project>
