@@ -8,7 +8,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 public class BakeryGuiBuilder {
-    BakeryController bakeryController;
+    BakeryViewModel bakeryViewModel;
     JTextArea textArea;
     JPanel decoratorPanel;
     JPanel cakePanel;
@@ -17,7 +17,7 @@ public class BakeryGuiBuilder {
     JTextField textDecoration;
 
     void buildGui() {
-        bakeryController = new BakeryController();
+        bakeryViewModel = new BakeryViewModel();
         var frame=new JFrame();
         frame.setMinimumSize(new Dimension(500, 500));
         textArea = new JTextArea();
@@ -49,21 +49,21 @@ public class BakeryGuiBuilder {
 
         var chocolateCakeButton=new JButton("Chocolate Cake");
         chocolateCakeButton.addActionListener(e->{
-            bakeryController.newCake(new ChocolateCake());
+            bakeryViewModel.newCake(new ChocolateCake());
             cakeBuilderActive(true);
             chocolateCakeButton.setEnabled(true);
         });
 
         var vanillaCakeButton=new JButton("Vanilla Cake");
         vanillaCakeButton.addActionListener(e->{
-            bakeryController.newCake(new VanillaCake());
+            bakeryViewModel.newCake(new VanillaCake());
             cakeBuilderActive(true);
             vanillaCakeButton.setEnabled(true);
         });
 
         var strawberryCakeButton=new JButton("Strawberry Cake");
         strawberryCakeButton.addActionListener(e->{
-            bakeryController.newCake(new StrawberryCake());
+            bakeryViewModel.newCake(new StrawberryCake());
             cakeBuilderActive(true);
             strawberryCakeButton.setEnabled(true);
         });
@@ -107,17 +107,17 @@ public class BakeryGuiBuilder {
 
         var clearCurrentCakeButton =new JButton("Clear current cake");
         clearCurrentCakeButton.addActionListener(e->{
-            bakeryController.clearOrder();
+            bakeryViewModel.clearOrder();
             cakeBuilderActive(false);
         });
 
         var addToOrderButton=new JButton("Add cake to order");
         addToOrderButton.addActionListener(e -> {
-            if(extraLargeCheckBox.isSelected()) bakeryController.extraLarge();
-            if(sprinkledCheckBox.isSelected()) bakeryController.addSprinkles();
-            if(!textDecoration.getText().isEmpty()) bakeryController.addText(textDecoration.getText());
+            if(extraLargeCheckBox.isSelected()) bakeryViewModel.extraLarge();
+            if(sprinkledCheckBox.isSelected()) bakeryViewModel.addSprinkles();
+            if(!textDecoration.getText().isEmpty()) bakeryViewModel.addText(textDecoration.getText());
 
-            bakeryController.finishOrder();
+            bakeryViewModel.finishOrder();
             cakeBuilderActive(false);
         });
 
@@ -133,7 +133,7 @@ public class BakeryGuiBuilder {
         JPanel printPanel = new JPanel();
         var printButton=new JButton("Print Order");
         printButton.addActionListener(e->{
-            String orderString= bakeryController.printOrder();
+            String orderString= bakeryViewModel.printOrder();
             textArea.append(orderString);
         });
 

@@ -4,7 +4,7 @@ import se.umu.cs.emli.ExtraLargeCake;
 import se.umu.cs.emli.SprinkledCake;
 import se.umu.cs.emli.TextedCake;
 
-public class BakeryController {
+public class BakeryViewModel {
     private Order currentOrder=new Order();
     private Cake currentCake;
 
