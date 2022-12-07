@@ -6,6 +6,7 @@ import se.umu.cs.apjava.bakery.Cake;
  * Decorator for Class Cake to make an extra large cake.
  * The text "extra large" is added to the cake description and
  * the cost for an extra large cake is 5 extra.
+ * @author Emmy Lindgren, id19eln.
  */
 public class ExtraLargeCake extends Cake {
     private final Cake cake;
